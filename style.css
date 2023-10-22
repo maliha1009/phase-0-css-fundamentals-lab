@@ -2,4 +2,41 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav a {
+  padding: 0 10px;
+  background-color: grey;
+}
+
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+#featured-property figcaption {
+  font-size: smaller;
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+}
+
+#details div,
+header div {
+  text-align: center;
+  background-color: grey;
 }
